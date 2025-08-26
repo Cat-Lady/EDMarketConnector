@@ -1,8 +1,17 @@
-requests==2.32.4
+certifi==2025.8.3
+charset-normalizer==3.4.3
+greenlet==3.2.4
+idna==3.10
 pillow==11.2.1
-watchdog==6.0.0
-simplesystray==0.1.0; sys_platform == 'win32'
-semantic-version==2.10.0
-# For manipulating folder permissions and the like.
-pywin32==310; sys_platform == 'win32'
+playsound @ git+https://github.com/killjoy1221/playsound.git@ebb6ee6f00a045c87187212b39f5a4c66384554c
 psutil==6.1.1
+pycairo==1.28.0
+pygobject==3.52.3
+requests==2.32.4
+semantic-version==2.10.0
+setuptools==80.9.0
+sqlalchemy==2.0.43
+typing-extensions==4.15.0
+urllib3==2.5.0
+watchdog==6.0.0
+wheel==0.45.1
